@@ -1,0 +1,151 @@
+
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #198754;
+  padding: 20px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #198754;
+  border-radius: 8px;
+}
+
+.btn-login,
+.btn-cadastro {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-login {
+  background-color: #555;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #333;
+}
+
+.btn-cadastro {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-cadastro:hover {
+  background-color: #388e3c;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background-color: #ffffff;
+  margin-top: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0;
+}
+
+footer {
+  background-color: #198754;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+table {
+  width: 90%;
+  margin: 60px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: left;
+}
+th {
+  background-color: #f0f0f0;
+}
+
+.produto-imagem {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto-card {
+  width: 240px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
