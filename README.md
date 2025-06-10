@@ -1,4 +1,4 @@
-<h1 align="center">🛒 Meu Site Bacana</h1>
+<h1 align="center">🛒 Meu Site </h1>
 <p align="center">
   Sistema de vendas online desenvolvido em Django.
 </p>
